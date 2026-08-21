@@ -1,48 +1,83 @@
-# 🐝 Hybrid Insect Detection & Smart Agricultural AI Consultant
+# Mustafa Çalışkan
 
-This project presents a state-of-the-art hybrid AI solution for identifying agricultural insects and providing expert-level farming advice. It combines the speed of **YOLOv8**, the precision of **Vision Transformers (ViT)**, and the reasoning power of **Google Gemini 2.0 Flash**.
+Senior Computer Engineering student at **Mehmet Akif Ersoy University**, specializing in **AI Security**, **Autonomous Agent Architectures**, and **Applied Deep Learning**.
 
-## 🏗️ System Architecture
-- **Detection (Localization):** YOLOv8m identifies insect coordinates in the field.
-- **Classification (Diagnosis):** A fine-tuned Vision Transformer (ViT) classifies species with **99% accuracy**.
-- **Decision Support (LLM):** Google Gemini 2.0 Flash generates professional reports based on the insect category (Harmful, Beneficial, or Neutral).
-
-## 📊 Performance & Data Science Experiment
-We evaluated the impact of data augmentation on model performance, scaling the dataset from **19,000** to **45,500 images**.
-
-### YOLOv8 Detection Performance
-| Baseline (19k Images) | Optimized (45.5k Images) |
-| :---: | :---: |
-| ![Baseline](results/confusion_matrix_yolo_baseline.png) | ![Augmented](results/confusion_matrix_yolo_augmented.png) |
-| *Initial class confusion* | *Clear diagonal separation* |
-
-### Vision Transformer (ViT) Classification
-| ViT Baseline | ViT Augmented (Fixed) |
-| :---: | :---: |
-| ![ViT Base](results/confusion_matrix_vit_baseline.png) | ![ViT Aug](results/confusion_matrix_vit_augmented.png) |
-
-### Training Metrics (Loss & Precision)
-| Baseline Metrics | Augmented Metrics |
-| :---: | :---: |
-| ![Metrics Base](results/training_metrics_baseline.png) | ![Metrics Aug](results/training_metrics_augmented.png) |
-
-## 📂 Repository Structure
-- `/notebooks`: Contains Baseline and Augmented pipeline notebooks.
-- `/results`: Evaluation matrices, training logs, and performance dashboards.
-- `/models`: Technical specifications and external hosting for weights.
-- `/docs`: Supplementary documentation and `.gitkeep` files.
-
-## 🔗 Links & Resources
-- **Trained Model Weights (Google Drive):** [Download "proje_model" Folder Here](https://drive.google.com/drive/folders/1pA1X1xzFEiqZ38rm4fWkWOxOI_S2SDX2?usp=sharing).
-- **Baseline Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mustafa-Caliskan/Insect-Detection-System-YOLOv8-ViT-Gemini/blob/main/notebooks/1_Insects_Detection_Baseline_LLM.ipynb).
-- **Optimized (Augmented) Notebook:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Mustafa-Caliskan/Insect-Detection-System-YOLOv8-ViT-Gemini/blob/main/notebooks/2_Insects_Detection_Augmented_LLM.ipynb).
+Focused on auditing, securing, and deploying production-grade AI systems and agentic workflows.
 
 ---
 
-### 🛡️ Execution & Integrity
-- **Notebook Rendering:** If GitHub shows "Unable to render code block", please use the **"Open in Colab"** badges above to view and run the code interactively.
-- **Data Safety:** The Google Drive link is set to **Viewer** mode to prevent unauthorized modifications.
-- **API Keys:** Users must provide their own `GEMINI_API_KEY` to generate reports.
+## 📌 Featured Projects
+
+* 🛡️ **[ai-soc-agent-lab](https://github.com/Mustafa-Caliskan/ai-soc-agent-lab)**  
+  **CyberTech Neural Shield:** Multi-layered security gateway for enterprise LLMs. Detects covert Unicode steganography, PDF text smuggling, and indirect prompt injection with DeBERTa-v3 semantic threat classification and outbound DLP masking.
+
+* 🌾 **[Insect-Detection-System-YOLOv8-ViT-Gemini](https://github.com/Mustafa-Caliskan/Insect-Detection-System-YOLOv8-ViT-Gemini)**  
+  **TUBITAK 2209-A Hybrid Vision Pipeline:** Two-stage pest detection and agricultural advisory platform combining YOLOv8m for localization, Vision Transformers (ViT) for fine-grained classification (0.95 mAP), and Gemini API for automated reporting.
+
+* 🤖 **[AutoRedTeam](https://github.com/Mustafa-Caliskan)**  
+  **Autonomous Agent Security Framework:** Automated red teaming tool built on Microsoft PyRIT and open-source LLMs to evaluate enterprise agents against indirect prompt injection and unauthorized tool execution.
 
 ---
-*Developed as part of an advanced AI research project focusing on smart agriculture and pest management.*
+
+## 💼 Experience & Leadership
+
+* **Yapay Zeka Stajyeri (AI Engineering Intern)** @ [Istanbul Sabiha Gokcen Airport (ISG)](https://www.sgairport.com/) *(Jul. 2026 – Aug. 2026)*  
+  Delivered real-time baggage detection (YOLOv11s + DETR-X), POS log fraud detection, and on-premise LLM log classification pipelines into corporate production.
+* **Yapay Zeka Araştırmacısı (AI Researcher)** @ [Microsoft AI Innovators Program](https://github.com/Mustafa-Caliskan) *(Aug. 2026 – Present)*  
+  Conducting research on LLM agent red teaming and MITRE ATLAS / OWASP risk evaluation frameworks.
+* **Kurucu Başkan (Founding President)** @ Digital Development Community (DGT) *(Feb. 2026 – Present)*
+* **Kampüs Elçisi (Campus Ambassador)** @ Huawei Student Developers (HSD) *(Sep. 2025 – Aug. 2026)*
+
+---
+
+## 🛠️ Technical Stack
+
+**AI Security & Agent Systems**
+<p align="left">
+  <img src="https://img.shields.io/badge/AI_Red_Teaming-FF4B4B?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLM_Security-6A0DAD?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Adversarial_ML-8B0000?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/MITRE_ATLAS_%26_ATT%26CK-E63946?style=for-the-badge&logo=target&logoColor=white" />
+  <img src="https://img.shields.io/badge/Microsoft_PyRIT-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain_RAG-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
+</p>
+
+**Deep Learning & Computer Vision**
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/YOLOv11_%2F_v8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vision_Transformers-4B8BBE?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6633?style=for-the-badge&logo=databricks&logoColor=white" />
+</p>
+
+**Backend & Infrastructure**
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Huawei_Cloud-C7000B?style=for-the-badge&logo=huawei&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Splunk_SIEM-000000?style=for-the-badge&logo=splunk&logoColor=white" />
+</p>
+
+---
+
+## 🏆 Certifications
+
+* **Specialized Cyber Winter Camp 2026** — Presidency of Defense Industries (SSB) & ASELSAN
+* **TSGK Specialized Security Bootcamp** — Cyber Security Cluster of Turkey
+* **HCCDA - AI** — Huawei Cloud Certified Developer Associate
+* **Huawei Cloud AI Bootcamp** — 4-Week Applied AI Program
+
+---
+
+## 📫 Contact & Links
+
+* **LinkedIn:** [linkedin.com/in/mustafa-caliskan-b0221b333](https://www.linkedin.com/in/mustafa-caliskan-b0221b333)
+* **Medium:** [medium.com/@caliskanmustafa](https://medium.com/@caliskanmustafa)
+* **Email:** [caliskanmustafaa.55@gmail.com](mailto:caliskanmustafaa.55@gmail.com)
